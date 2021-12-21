@@ -1,0 +1,95 @@
+body,ul,li,p{
+  margin:0px;
+  padding: 0px;
+  list-style: none;
+  font-size:1.2rem;
+  font-family:Gabriola;
+
+  }
+
+body{
+  background: rgb(112, 255, 241);
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+.header{
+  
+  display: flex;
+  flex-wrap: wrap ;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  background-color: rgb(5, 114, 114);
+  height: 20px;
+}
+
+
+.menu{
+  display: flex;
+}
+.menu li{
+  margin-left:20px ;
+}
+.menu li a{
+  display: block;
+  padding: 10px;
+  
+}
+.container{
+  display: flex;
+  position: absolute;
+  right: -60px;
+  bottom: -61px;
+  background-image: none;
+  } 
+  
+/*rodapé*/
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+
+  position:absolute;
+ bottom: 0%;
+  width:100%;
+  align-items: center;
+  background-color: rgb(5, 114, 114) ;
+  color:white;
+  height: auto;
+  
+
+}
+/*para quando passar o mouse a fonte aumentA e muda de cor*/
+.header:hover{
+   
+ font-size:25px ;
+
+  }
+.menu :hover {
+  color: blue;
+  font-size: 25px;
+
+}
+@media(min-width:700px){
+  .header:hover{
+    
+    color:blue;
+    flex-grow: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
